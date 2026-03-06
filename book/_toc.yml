@@ -8,6 +8,9 @@ parts:
   numbered: false
   chapters:
 
+   - file: docs/pages_distantreading_overview
+    title: Introduction to Distant Reading
+
   - file: docs/pages_datacollection
     title: Data Collection
 
