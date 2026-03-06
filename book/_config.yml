@@ -1,7 +1,7 @@
 author: Dr. Monika Barget, built with <a href="https://teachbooks.io">TeachBooks</a>
 
 execute:
-  execute_notebooks: "on"
+  execute_notebooks: "auto"
 
 html:
   use_multitoc_numbering: true
