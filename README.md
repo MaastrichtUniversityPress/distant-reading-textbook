@@ -1,73 +1,67 @@
-# Your first TeachBook using the GitHub template
+# Distant Reading in Media Studies
 
-The template allows you to start your own TeachBook and hosting that TeachBook online without knowledge on Git, the Jupyter book / TeachBook package, python, conda and webservers. It doesn't provide full documentation on the functionalities. Please look at our manual (https://teachbooks.io/manual) to find more about that!
+## Distant reading as a media studies method
 
-## How to get started
+Distant reading, meaning the computational analysis of large text corpora, is a useful method for media studies as well as for literary analysis. In an era where social media platforms are central hubs of public exchanges and generate vast datasets, distant reading enables researchers to uncover patterns, trends, and biases at scale. Distant reading can also help to understand the spread of information across platforms, the formation of digital communities, and the influence of algorithms on public discourse.
 
-How to use the template is demonstrated in the figure below, all steps are elaborated on in the following step-by-step tutorial.
+At the Faculty of Arts and Social Sciences in Maastricht, we give students in the MA Digital Cultures an introduction to distant reading in our Machines of Knowledge course (DCU4008), using the beginner-friendly NLP suite Voyant Tools. Students are given podcast reviews from the Apple Store, comments from YouTube, and Mastodon posts as sample datasets to analyse power dynamics, cultural shifts, and user behaviours in relation to current societal concerns.
 
-![Demonstration for a public repository](https://github.com/TeachBooks/template_figures/blob/main/teachbooks-template.gif?raw=true)
-Video available [here](https://youtu.be/nN3Oi_MVvF0)
 
-1. To get started making your TeachBook with our functionalities, use the [template TeachBook](https://github.com/TeachBooks/main/template) as template:
+## Course Overview
 
-![Use template](https://github.com/TeachBooks/template_figures/blob/main/use_template.png?raw=true)
+This course explores the transformation of the World Wide Web from a static information space to a dynamic, user-driven network of knowledge. We examine how content creation, sharing, and delivery have evolved, bringing new economic, ethical, and legal challenges.
 
-2. Fill in a repository name, this name will be used in the future url of your book:
+Through theoretical and practical lenses, students engage with **data feminism, postcolonialism, and public sphere theory**, while developing skills in **computational text analysis** ("distant reading"). You’ll learn to collect and analyze web-based text corpora, visualize data, and critically assess how digital communities and trending topics emerge.
 
-![Create new repository](https://github.com/TeachBooks/template_figures/blob/main/create_new_repository.png?raw=true)
+---
 
-3. You can choose for `Private` only if you've GitHub Pro, GitHub Team, GitHub Enterprise Cloud, or GitHub Enterprise Server. Otherwise, you won't be able to publish your TeachBook online. Furthermore, it prevents people from contributing to your book, making your book essentially 'closed' instead of 'open'. Note that the built book website is always public.
+## Learning Objectives
 
-4. You need to activate GitHub pages so that your website is published to the internet. As long as you don't do this your TeachBook is not published online. Actually, now that you've taken this template our workflow tries to publish it to GitHub pages, which you didn't have the chance to activate yet. That's why you probably received an email with 'call-deploy-book: Some jobs were not successful' and you see the failed job under `Initial commit`. You can activate GitHub pages by setting the source for GitHub pages to GitHub Actions under `Settings` - `Pages` - `Build and deployment` - `Source` - `GitHub Actions`:
+By the end of this course, you will be able to:
+- **Critically analyze** the curation, analysis, and preservation of web-based content.
+- **Harvest and analyze** digital data using distant reading and visualization tools.
+- **Apply** data feminist, postcolonial, and public sphere frameworks to digital knowledge production.
+- **Develop** technical skills relevant for research and professional careers in media, marketing, and social media.
 
-![Activate GitHub Pages](https://github.com/TeachBooks/template_figures/blob/main/set_up_pages.png?raw=true)
+---
 
-5. Now checkout the progress of the publishing workflow under `Actions` - `All workflows` -  `call-deploy-book` -`<the most recent workflow run>`. The first commit which is there might have failed because GitHub Pages wasn't activated at the time of `Initial commit`. Re-run that job from `Actions` - `All workflows` - `call-deploy-book` - `Initial commit` - `Re-run all jobs` - `Re-run jobs`:
+## Key Topics & Skills
 
-![Action](https://github.com/TeachBooks/template_figures/blob/main/action_re-run.jpeg?raw=true)
+- Digital archives & cultural memory
+- Data ethics & feminism
+- Postcolonial perspectives on the web
+- Distant reading & text analysis
+- Data visualization
+- Public sphere theory
 
-6. When the workflow has finished, visit your build TeachBook at `https://<username or organiszation_name>.github.io/<repository_name>` (case sensitive). For our example it is [https://dummydocent.github.io/test_book_from_template/](https://dummydocent.github.io/test_book_from_template/) for the shown repository. These links are visible in the action's summary as well, as shown in the figure of step 4.
+---
 
-7. Want to get started directly? Your book contains a few exercises to get your started! Visit `https://<username or organiszation_name>.github.io/<repository_name>/exercises/exercises` (case sensitive) to get started with the first ones to get the basics of how to interact with your book on GitHub.
+## Recommended Reading
 
-![exercises](https://github.com/TeachBooks/template_figures/blob/main/exercises.png?raw=true)
+- D’Ignazio, C. & Klein, L. (2020). *Data Feminism*. MIT Press.
+- Fuchs, C. et al. (2010). Theoretical foundations of the web: cognition, communication, and co-operation.
+- Sinclair, S. & Rockwell, S. (2016). Text Analysis and Visualization: Making Meaning Count.
+- Mirowski, P. (2018). The future(s) of open science.
+- Peters, M.A. & Besley, T. (2019). Digital archives in the cloud: Collective memory, institutional histories and the politics of information.
 
-Additional tip: 
-Set the repository website as your GitHub Pages website under `Code`- `About` - `Settings icon` - `Website` - `Use your GitHub Pages Website`
+---
 
-![GitHub pages as website](https://github.com/TeachBooks/template_figures/blob/main/use_github_pages_website.png?raw=true)
+## Repository Contents
 
-## Features
-- A github repository structure  (`/book`) for making a TeachBook: a [Jupyter Book v1](https://github.com/executablebooks/jupyter-book) for educational purposes
-- An empty TeachBook containing an intro page on root, an example markdown page, an example jupyter notebook page, an example references page. and an example credits page. (`/book/_toc.yml`, `/book/_config.yml`, `/book/credits.md`, `/book/intro.md`, `/book/references.md`, `/book/some_content/overview.md`, `/book/some_content/text_and_code.ipynb`)
-- A file ready for adding references (`references.bib`, `/book/references.md`)
-- An example favicon (web browser icon) (`/book/figures/favicon.ico`, `book/_config.yml`.)
-- An example logo (`/book/figures/TUDelft_logo_rgb.png`, `/book/config.yml`)
-- The configuration files set ready to make your Jupyter Notebooks pages work with [live code using our sphinx-thebe extension](https://teachbooks.io/manual/features/live_code.html) and our recommended settings (`/book/config.yml`)
-- An example of setting up preprocessing your table of contents to hide certain draft chapters for eg. students (`_toc.yml`)
-- A file containing all the recommended software packages (`requirements.txt`)
-- A file containing the recommended license CC BY 4.0 (`LICENSE.md`)
-- Our [GitHub workflow for publishing your TeachBook to GitHub Pages](https://github.com/TeachBooks/deploy-book-workflow) (`.github/workflow/call-deploy-book.yml`)
-- A gitignore file containing standard python filetype to ignore (`.gitignore`)
-- A readme containing information how to use the template, which can adjusted after using the template (`README.md`)
+This GitHub repository will host:
+- Course materials, slides, and readings
+- Code templates and tutorials for text analysis
+- Datasets and examples for hands-on exercises
+- Guidelines for assignments and projects
 
-## Contribute
-This tool's repository is stored on [GitHub](https://github.com/TeachBooks/template). The `README.md` of the branch `manual_description` is also part of the [TeachBooks manual](https://teachbooks.io/manual/external/template/README.html) as a submodule. If you'd like to contribute, you can create a fork and open a pull request on the [GitHub repository](https://github.com/TeachBooks/template). To update the `README.md` shown in the TeachBooks manual, create a fork and open a merge request for the [GitHub repository of the manual](https://github.com/TeachBooks/manual). If you intent to clone the manual including its submodules, clone using: `git clone --recurse-submodulesgit@github.com:TeachBooks/manual.git`.
+---
 
-## Template README
-> Remove all of the above after you've taken this template and followed the instructions. The following lines are a template for your own README
+## How to use this handbook
 
-# `<Book title>`
+While this handbook was created for the skills sessions in a particular distant reading course at Maastricht University, the introductions to distant reading, the Voyant Tools workflow, and the case studies can easily be reused in other university courses or support students' self-study at home.
 
-`<description of book's content en target audience>`
+If you want to use this repository as a template to create your own educational resource, you can clone or download all the materials from the code section. Please make sure to credit Monika Barget and Maastricht University Press as initial content creators.
 
-## Contributors
-- `<list authors>`
+## Questions or contributions?
 
-## Reuse content
-Feel free to reuse this content or contribute to it. Please give appropriate credit, provide a link to the license, and indicate if changes were made ([CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/))
-
-The website (`<book_website_url>`) is created using the [TeachBooks Python package](https://github.com/TeachBooks/TeachBooks). To recreate it you have two options (more information in the [TeachBooks manual](https://teachbooks.io/manual/):
-- In the GitHub interface: fork this repository, enable Github Pages from the source GitHub actions (Settings - Code and automation - Pages - Build and deployment - Source - GitHub Actions), enable workflows (Actions - I understand my workflows, go ahead and enable them) and run the call-deploy-book workflow (Actions - call-deploy-book - Run workflow - Run workflow). The website is released on the URL as shown on the workflow summary when the workflow has finished (Actions - call-deploy-book - call-deploy-book - Summary).
-- On your own computer: clone this repository, install the required packages (`pip install -r requirements.txt`) and build the book (`teachbooks build book`). The website is stored locally in `book/_build/index.html`.
+If you need help using this handbook, go to the GitHub repository behind it and feel free t open an issue. You can also contact the course coordinator via email.
