@@ -4,44 +4,121 @@ format: jb-book
 root: intro.md
 
 parts:
-  - caption: Part with some content # A title for the whole the subtree, e.g. shown above the subtree in ToCs, configuration part of sphinx-external-toc (https://sphinx-external-toc.readthedocs.io/en/latest/intro.html)
-    numbered: false                 # Default value (line can be removed), whether to number the chapters/sections in this part, configuration part of sphinx-external-toc (https://sphinx-external-toc.readthedocs.io/en/latest/intro.html)
-    style: numerical                # Default value (line can be removed), style of numbering for this part, configuration part of TeachBooks' version of sphinx-external-toc (https://github.com/TeachBooks/sphinx-external-toc?tab=readme-ov-file#toc-tree-options)
-    restart_numbering: false        # Default value (line can be removed), whether to restart numbering for this part, configuration part of TeachBooks' version of sphinx-external-toc (https://github.com/TeachBooks/sphinx-external-toc?tab=readme-ov-file#toc-tree-options)
-    chapters:
-    - file: some_content/overview.md
+
+- caption: Content
+  numbered: false
+  chapters:
+
+  - file: pages_datacollection
+    title: Data Collection
+
+  - file: pages_datacleaning
+    title: Data Cleaning
+
+  - file: pages_dataanalysis_samples
+    title: Data Analysis Samples
+
+  - file: pages_datasets_intro
+    title: Datasets Intro
+
+
+  - file: pages_datascraping_overview
+    title: Data Scraping
+    sections:
+    - file: pages_datascraping_applestore
+      title: Apple Store
+    - file: pages_datascraping_googlenews
+      title: Google News
+    - file: pages_datascraping_mastodon
+      title: Mastodon
+    - file: pages_datascraping_Meta
+      title: Meta
+    - file: pages_datascraping_reddit
+      title: Reddit
+    - file: pages_datascraping_twitter
+      title: Twitter
+    - file: pages_datascraping_youtube
+      title: YouTube
+
+
+  - file: pages_nlp_overview
+    title: NLP
+    sections:
+    - file: pages_nlp_segmentation
+      title: Segmentation
+    - file: pages_nlp_topicmodels
+      title: Topic Models
+    - file: pages_nlp_plottingdistribution
+      title: Plotting Distribution
+    - file: pages_nlp_multiplelanguages
+      title: Multiple Languages
+    - file: pages_nlp_spatialdata
+      title: Spatial Data
+
+
+  - file: pages_skills_overview
+    title: Skills
+    sections:
+
+    - file: pages_skills_beginners
+      title: Skills for Beginners
       sections:
-      - file: some_content/text_and_code.ipynb
-  - caption: Exercises
-    chapters:
-    - file: exercises.md
+      - file: pages_skills1_3_OpenRefine
+        title: OpenRefine
+      - file: pages_skills2_2_casestudy
+        title: Case Study
+      - file: pages_skills2_1_VoyantTools
+        title: Voyant Tools
+      - file: pages_skills3_presentations
+        title: Presentations
+
+    - file: pages_skills_advanced
+      title: Skills for Advanced Users
       sections:
-      - file: exercises/001.md
-      - file: exercises/002.md
-      - file: exercises/003.md
-      - file: exercises/004.md
-      - file: exercises/005.md
-      - file: exercises/005a.md
-      - file: exercises/006.md
-      - file: exercises/summary
-    - file: syntax_exercises.md
-      sections:
-      - file: syntax_exercises/007.md
-      - file: syntax_exercises/008.md
-      - file: syntax_exercises/009.md
-      - file: syntax_exercises/010.md
-      - file: syntax_exercises/011.md
-      - file: syntax_exercises/012.md
-      - file: syntax_exercises/013.md
-    - file: extensions.md
-      sections:
-      - file: exercises/007.md
-      - file: extension_exercises/017.md
-      - file: extension_exercises/014.md
-      - file: extension_exercises/015.md
-      - file: extension_exercises/016.md
-  - caption: Miscellaneous
-    chapters:
-    - file: references.md
-    - file: changelog.md
-    - file: credits.md
+      - file: pages_skills1_0_VPNclient
+        title: VPN Client
+      - file: pages_skills1_1_DSRI
+        title: DSRI
+      - file: pages_skills1_2a_scrapeAPPLEreviews
+        title: Scrape Apple Reviews
+      - file: pages_skills1_2b_scrapeYOUTUBEcomments
+        title: Scrape YouTube Comments
+      - file: pages_skills1_4_batchdownload
+        title: Batch Download
+
+
+  - file: pages_tasksheets_overview
+    title: Task Sheets
+    sections:
+    - file: pages_tasksheet_appropriation
+      title: Appropriation
+    - file: pages_tasksheet_bodyimage
+      title: Body Image
+    - file: pages_tasksheet_domesticviolence
+      title: Domestic Violence
+    - file: pages_tasksheet_elonmusk
+      title: Elon Musk
+    - file: pages_tasksheet_epstein
+      title: Epstein
+    - file: pages_tasksheet_girlboss
+      title: Girlboss
+    - file: pages_tasksheet_menstruation
+      title: Menstruation
+    - file: pages_tasksheet_mileycyrus
+      title: Miley Cyrus
+    - file: pages_tasksheet_monarchy
+      title: Monarchy
+    - file: pages_tasksheet_race
+      title: Race
+    - file: pages_tasksheet_seretsekhama
+      title: Seretse Khama
+    - file: pages_tasksheet_slavery
+      title: Slavery
+    - file: pages_tasksheet_sorayaesfandiary
+      title: Soraya Esfandiary
+    - file: pages_tasksheet_truecrime
+      title: True Crime
+    - file: pages_tasksheet_wastecolonialism
+      title: Waste Colonialism
+    - file: pages_tasksheet_witchcraft
+      title: Witchcraft
