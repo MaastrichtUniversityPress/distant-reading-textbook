@@ -22,7 +22,7 @@ sphinx:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
 
-    html_baseurl: "https://monikabarget.github.io/distant-reading/"
+    html_baseurl: "https://monikabarget.github.io/distant-reading-textbook/"
 
     html_theme_options:
 
@@ -31,7 +31,7 @@ sphinx:
         image_light: logos/logo_light.svg
         image_dark: logos/logo_dark.svg
 
-      repository_url: "https://github.com/MonikaBarget/distant-reading"
+      repository_url: "https://github.com/MonikaBarget/distant-reading-textbook"
       repository_branch: "main"
       path_to_docs: "book"
 
