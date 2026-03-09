@@ -28,8 +28,8 @@ sphinx:
 
       logo:
         text: Distant Reading in Media Studies
-        image_light: logos/logo_book_mok.png
-        image_dark: logos/logo_book_mok.png
+        image_light: logos/distantreading.png
+        image_dark: logos/distantreading.png
 
       repository_url: "https://github.com/MonikaBarget/distant-reading-textbook"
       repository_branch: "main"
