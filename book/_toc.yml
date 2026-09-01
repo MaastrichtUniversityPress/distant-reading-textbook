@@ -83,15 +83,7 @@ parts:
               - file: docs/pages_skills1_4_batchdownload
                 title: Batch Download
 
-      - file: docs/pages_tasksheets_overview
-        title: Sample Analyses
-        sections:
-          - file: docs/pages_tasksheet_bodyimage
-            title: Body Image
-          - file: docs/pages_tasksheet_race
-            title: Race
-
-      - file: docs/pages_tasksheets_overview
+      - file: docs/pages_tasksheets_twitter
         title: Task Sheets Twitter (archived)
         sections:
           - file: docs/pages_tasksheet_mileycyrus
@@ -99,7 +91,7 @@ parts:
           - file: docs/pages_tasksheet_monarchy
             title: Monarchy
 
-      - file: docs/pages_tasksheets_overview
+      - file: docs/pages_tasksheets_youtube
         title: Task Sheets YouTube
         sections:
           - file: docs/pages_tasksheet_elonmusk
@@ -115,7 +107,7 @@ parts:
           - file: docs/pages_tasksheet_witchcraft
             title: Witchcraft
 
-      - file: docs/pages_tasksheets_overview
+      - file: docs/pages_tasksheets_podcasts
         title: Task Sheets Podcasts
         sections:
           - file: docs/pages_tasksheet_epstein
