@@ -4,141 +4,127 @@ format: jb-book
 root: intro
 
 parts:
-- caption: Content
-  numbered: false
-  chapters:
+  - caption: Content
+    numbered: false
+    chapters:
+      - file: docs/pages_distantreading_overview
+        title: Introduction to Distant Reading
 
-  - file: docs/pages_distantreading_overview
-    title: Introduction to Distant Reading
+      - file: docs/pages_datacollection
+        title: Data Collection
 
-  - file: docs/pages_datacollection
-    title: Data Collection
+      - file: docs/pages_datacleaning
+        title: Data Cleaning
 
-  - file: docs/pages_datacleaning
-    title: Data Cleaning
+      - file: docs/pages_dataanalysis_samples
+        title: Data Analysis Samples
 
-  - file: docs/pages_dataanalysis_samples
-    title: Data Analysis Samples
+      - file: docs/pages_datasets_intro
+        title: Datasets Intro
 
-  - file: docs/pages_datasets_intro
-    title: Datasets Intro
-
-  - file: docs/pages_datascraping_overview
-    title: Data Scraping
-    sections:
-      - file: docs/pages_datascraping_applestore
-        title: Apple Store
-      - file: docs/pages_datascraping_googlenews
-        title: Google News
-      - file: docs/pages_datascraping_mastodon
-        title: Mastodon
-      - file: docs/pages_datascraping_Meta
-        title: Meta
-      - file: docs/pages_datascraping_reddit
-        title: Reddit
-      - file: docs/pages_datascraping_twitter
-        title: Twitter
-      - file: docs/pages_datascraping_youtube
-        title: YouTube
-
-  - file: docs/pages_nlp_overview
-    title: NLP
-    sections:
-      - file: docs/pages_nlp_segmentation
-        title: Segmentation
-      - file: docs/pages_nlp_topicmodels
-        title: Topic Models
-      - file: docs/pages_nlp_plottingdistribution
-        title: Plotting Distribution
-      - file: docs/pages_nlp_multiplelanguages
-        title: Multiple Languages
-      - file: docs/pages_nlp_spatialdata
-        title: Spatial Data
-
-  - file: docs/pages_skills_overview
-    title: Skills
-    sections:
-
-      - file: docs/pages_skills_beginners
-        title: Skills for Beginners
+      - file: docs/pages_datascraping_overview
+        title: Data Scraping
         sections:
-          - file: docs/pages_skills1_3_OpenRefine
-            title: OpenRefine
-          - file: docs/pages_skills2_2_casestudy
-            title: Case Study
-          - file: docs/pages_skills2_1_VoyantTools
-            title: Voyant Tools
-          - file: docs/pages_skills3_presentations
-            title: Presentations
+          - file: docs/pages_datascraping_applestore
+            title: Apple Store
+          - file: docs/pages_datascraping_googlenews
+            title: Google News
+          - file: docs/pages_datascraping_mastodon
+            title: Mastodon
+          - file: docs/pages_datascraping_Meta
+            title: Meta
+          - file: docs/pages_datascraping_reddit
+            title: Reddit
+          - file: docs/pages_datascraping_twitter
+            title: Twitter
+          - file: docs/pages_datascraping_youtube
+            title: YouTube
 
-      - file: docs/pages_skills_advanced
-        title: Skills for Advanced Users
+      - file: docs/pages_nlp_overview
+        title: NLP
         sections:
-          - file: docs/pages_skills1_0_VPNclient
-            title: VPN Client
-          - file: docs/pages_skills1_1_DSRI
-            title: DSRI
-          - file: docs/pages_skills1_2a_scrapeAPPLEreviews
-            title: Scrape Apple Reviews
-          - file: docs/pages_skills1_2b_scrapeYOUTUBEcomments
-            title: Scrape YouTube Comments
-          - file: docs/pages_skills1_4_batchdownload
-            title: Batch Download
+          - file: docs/pages_nlp_segmentation
+            title: Segmentation
+          - file: docs/pages_nlp_topicmodels
+            title: Topic Models
+          - file: docs/pages_nlp_plottingdistribution
+            title: Plotting Distribution
+          - file: docs/pages_nlp_multiplelanguages
+            title: Multiple Languages
+          - file: docs/pages_nlp_spatialdata
+            title: Spatial Data
 
-  - file: docs/pages_tasksheets_overview
-    title: Sample Analyses
-    sections:
-        - file: docs/pages_tasksheet_appropriation
-          title: Appropriation
-        - file: docs/pages_tasksheet_bodyimage
-          title: Body Image
-        - file: docs/pages_tasksheet_race
-          title: Race
+      - file: docs/pages_skills_overview
+        title: Skills
+        sections:
+          - file: docs/pages_skills_beginners
+            title: Skills for Beginners
+            sections:
+              - file: docs/pages_skills1_3_OpenRefine
+                title: OpenRefine
+              - file: docs/pages_skills2_2_casestudy
+                title: Case Study
+              - file: docs/pages_skills2_1_VoyantTools
+                title: Voyant Tools
+              - file: docs/pages_skills3_presentations
+                title: Presentations
 
-   - file: docs/pages_tasksheets_overview 
-     title: Task Sheets Historical Data
-     sections:
-        - file: docs/pages_tasksheet_inauguralspeeches
-          title: U.S. Inaugural Speeches
-        - file: docs/pages_tasksheet_leageofnations
-          title: League of Nations Speeches
-        - file: docs/pages_tasksheet_americansouth
-          title: First-Person Narratives from the American South
-          
-  - file: docs/pages_tasksheets_overview
-    title: Task Sheets Twitter (archived)
-    sections:
-      - file: docs/pages_tasksheet_mileycyrus
-        title: Miley Cyrus
-      - file: docs/pages_tasksheet_monarchy
-        title: Monarchy
+          - file: docs/pages_skills_advanced
+            title: Skills for Advanced Users
+            sections:
+              - file: docs/pages_skills1_0_VPNclient
+                title: VPN Client
+              - file: docs/pages_skills1_1_DSRI
+                title: DSRI
+              - file: docs/pages_skills1_2a_scrapeAPPLEreviews
+                title: Scrape Apple Reviews
+              - file: docs/pages_skills1_2b_scrapeYOUTUBEcomments
+                title: Scrape YouTube Comments
+              - file: docs/pages_skills1_4_batchdownload
+                title: Batch Download
 
-    - file: docs/pages_tasksheets_overview
-      title: Task Sheets YouTube
-      sections:
-        - file: docs/pages_tasksheet_elonmusk
-          title: Elon Musk
-        - file: docs/pages_tasksheet_seretsekhama
-          title: Seretse Khama
-        - file: docs/pages_tasksheet_slavery
-          title: Slavery
-        - file: docs/pages_tasksheet_sorayaesfandiary
-          title: Soraya Esfandiary
-        - file: docs/pages_tasksheet_wastecolonialism
-          title: Waste Colonialism
-        - file: docs/pages_tasksheet_witchcraft
-          title: Witchcraft
-          
-    - file: docs/pages_tasksheets_overview
-      title: Task Sheets Podcasts
-      sections:
-        - file: docs/pages_tasksheet_epstein
-          title: Epstein
-        - file: docs/pages_tasksheet_girlboss
-          title: Girlboss
-       - file: docs/pages_tasksheet_domesticviolence
-         title: Domestic Violence
-       - file: docs/pages_tasksheet_menstruation
-         title: Menstruation
-       - file: docs/pages_tasksheet_truecrime
-         title: True Crime
+      - file: docs/pages_tasksheets_overview
+        title: Sample Analyses
+        sections:
+          - file: docs/pages_tasksheet_bodyimage
+            title: Body Image
+          - file: docs/pages_tasksheet_race
+            title: Race
+
+      - file: docs/pages_tasksheets_overview
+        title: Task Sheets Twitter (archived)
+        sections:
+          - file: docs/pages_tasksheet_mileycyrus
+            title: Miley Cyrus
+          - file: docs/pages_tasksheet_monarchy
+            title: Monarchy
+
+      - file: docs/pages_tasksheets_overview
+        title: Task Sheets YouTube
+        sections:
+          - file: docs/pages_tasksheet_elonmusk
+            title: Elon Musk
+          - file: docs/pages_tasksheet_seretsekhama
+            title: Seretse Khama
+          - file: docs/pages_tasksheet_slavery
+            title: Slavery
+          - file: docs/pages_tasksheet_sorayaesfandiary
+            title: Soraya Esfandiary
+          - file: docs/pages_tasksheet_wastecolonialism
+            title: Waste Colonialism
+          - file: docs/pages_tasksheet_witchcraft
+            title: Witchcraft
+
+      - file: docs/pages_tasksheets_overview
+        title: Task Sheets Podcasts
+        sections:
+          - file: docs/pages_tasksheet_epstein
+            title: Epstein
+          - file: docs/pages_tasksheet_girlboss
+            title: Girlboss
+          - file: docs/pages_tasksheet_domesticviolence
+            title: Domestic Violence
+          - file: docs/pages_tasksheet_menstruation
+            title: Menstruation
+          - file: docs/pages_tasksheet_truecrime
+            title: True Crime
