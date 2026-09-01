@@ -15,6 +15,11 @@ parts:
 
       - file: docs/pages_datacleaning
         title: Data Cleaning
+        sections:
+          - file: docs/pages_datacleaning_overview
+            title: Purpose of Data Cleaning
+          - file: docs/pages_datacleaning_python
+            title: Data Cleaning with Python
 
       - file: docs/pages_dataanalysis_samples
         title: Data Analysis Samples
