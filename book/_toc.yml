@@ -1,5 +1,3 @@
-# Configuration of _toc.yml file is explained in detail here: https://jupyterbook.org/en/stable/structure/toc.html and https://sphinx-external-toc.readthedocs.io/en/latest/user_guide/sphinx.html
-
 format: jb-book
 root: intro
 
@@ -7,6 +5,9 @@ parts:
   - caption: Content
     numbered: false
     chapters:
+      - file: docs/index
+        title: Introduction
+
       - file: docs/pages_distantreading_overview
         title: Introduction to Distant Reading
 
@@ -15,12 +16,12 @@ parts:
 
       - file: docs/pages_datacleaning
         title: Data Cleaning
-
-      - file: docs/pages_dataanalysis_samples
-        title: Data Analysis Samples
+      
+      - file: docs/pages_dataarchiving
+        title: Data Archiving
 
       - file: docs/pages_datasets_intro
-        title: Datasets Intro
+        title: Data Sets Intro
 
       - file: docs/pages_datascraping_overview
         title: Data Scraping
@@ -39,20 +40,8 @@ parts:
             title: Twitter
           - file: docs/pages_datascraping_youtube
             title: YouTube
-
-      - file: docs/pages_nlp_overview
-        title: NLP
-        sections:
-          - file: docs/pages_nlp_segmentation
-            title: Segmentation
-          - file: docs/pages_nlp_topicmodels
-            title: Topic Models
-          - file: docs/pages_nlp_plottingdistribution
-            title: Plotting Distribution
-          - file: docs/pages_nlp_multiplelanguages
-            title: Multiple Languages
-          - file: docs/pages_nlp_spatialdata
-            title: Spatial Data
+          - file: docs/pages_datascraping_GoogleAPI
+            title: Google API
 
       - file: docs/pages_skills_overview
         title: Skills
@@ -61,7 +50,7 @@ parts:
             title: Skills for Beginners
             sections:
               - file: docs/pages_skills1_3_OpenRefine
-                title: OpenRefine
+                title: Data Cleaning with OpenRefine
               - file: docs/pages_skills2_2_casestudy
                 title: Case Study
               - file: docs/pages_skills2_1_VoyantTools
@@ -83,16 +72,38 @@ parts:
               - file: docs/pages_skills1_4_batchdownload
                 title: Batch Download
 
-      - file: docs/pages_tasksheets_twitter
-        title: Task Sheets Twitter (archived)
+    - file: docs/pages_nlp_introduction
+        title: NLP Introduction
         sections:
-          - file: docs/pages_tasksheet_mileycyrus
-            title: Miley Cyrus
-          - file: docs/pages_tasksheet_monarchy
-            title: Monarchy
+          - file: docs/pages_nlp_segmentation
+            title: Segmentation
+          - file: docs/pages_nlp_topicmodels
+            title: Topic Models
+          - file: docs/pages_nlp_plottingdistribution
+            title: Plotting Distribution
+          - file: docs/pages_nlp_multiplelanguages
+            title: Multiple Languages
+          - file: docs/pages_nlp_spatialdata
+            title: Spatial Data
+          - file: docs/pages_nlp_sentimentanalysis
+            title: Sentiment Analysis
 
-      - file: docs/pages_tasksheets_youtube
-        title: Task Sheets YouTube
+      - file: docs/pages_dataanalysis_samples
+        title: Sample Analyses
+        sections:
+          - file: docs/pages_dataanalysis_bodyimage
+            title: Body Image
+          - file: docs/pages_dataanalysis_truecrime
+            title: True Crime
+          - file: docs/pages_dataanalysis_mileycyrus
+            title: Miley Cyrus
+          - file: docs/pages_dataanalysis_monarchy
+            title: British Monarchy
+          - file: docs/pages_dataanalysis_menstruation
+            title: Menstruation
+
+      - file: docs/pages_tasksheets_presentations
+        title: Task Sheets Group Presentations
         sections:
           - file: docs/pages_tasksheet_elonmusk
             title: Elon Musk
@@ -106,9 +117,12 @@ parts:
             title: Waste Colonialism
           - file: docs/pages_tasksheet_witchcraft
             title: Witchcraft
+          - file: docs/pages_tasksheet_race
+            title: Race
+            
 
-      - file: docs/pages_tasksheets_podcasts
-        title: Task Sheets Podcasts
+      - file: docs/pages_tasksheets_essays
+        title: Task Sheets Essays
         sections:
           - file: docs/pages_tasksheet_epstein
             title: Epstein
@@ -116,7 +130,11 @@ parts:
             title: Girlboss
           - file: docs/pages_tasksheet_domesticviolence
             title: Domestic Violence
-          - file: docs/pages_tasksheet_menstruation
-            title: Menstruation
-          - file: docs/pages_tasksheet_truecrime
-            title: True Crime
+        
+          
+
+      - file: docs/api-examples
+        title: API Examples
+
+      - file: docs/markdown-examples
+        title: Markdown Examples
