@@ -48,11 +48,13 @@ Large data sets can cause severe performance issues when opened in tools like EX
 
 ### Cited works and recommendations for further reading
 
+- Ignatow, G., & Mihalcea, R. (2018). *An introduction to text mining: Research design, data collection, and analysis.* SAGE Publications. [https://doi.org/10.4135/9781506336985](https://doi.org/10.4135/9781506336985)
 - Maloney, K. (2021, September 27). Subject guides: Text and data mining: 4. Cleaning and preparing data. https://libguides.library.usyd.edu.au/text_data_mining/cleaning
 - Metaweb Technologies, Inc. (2012). OpenRefine. https://openrefine.org/
+- Piotrowski, M. (2012). *Natural language processing for historical texts.* Springer. [https://doi.org/10.1007/978-3-031-02146-6](https://doi.org/10.1007/978-3-031-02146-6)
+- Schöch, C. (2013). Big? Smart? Clean? Messy? Data in the humanities. *Journal of Digital Humanities*, 2(3). [http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/)
 - Rinker, T. (2020). Textstem [R]. https://github.com/trinker/textstem (Original work published 2017)
 - Text Cleaner: Text Cleaning and Text Formatting Online. (n.d.). Text Cleaner. Retrieved October 13, 2021, from https://textcleaner.net/
 - Text Cleanser app (no longer under active development). (n.d.). Retrieved October 13, 2021, from https://apps.nozavi.com/apps/others/older-apps.html
 - TextCleanr—Text Cleaner Tool. (n.d.). Retrieved October 13, 2021, from https://www.textcleanr.com/
 - Trifacta Wrangler. (n.d.). Retrieved October 14, 2021, from https://cloud.trifacta.com/sign-in
-
