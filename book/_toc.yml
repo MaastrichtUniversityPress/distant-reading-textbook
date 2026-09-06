@@ -30,7 +30,6 @@ parts:
             title: Data Cleaning with Open Refine
           - file: docs/pages_datacleaning_python
             title: Data Cleaning with Python
-            
 
       - file: docs/pages_dataanalysis_samples
         title: Data Analysis Samples
@@ -74,6 +73,7 @@ parts:
           - file: docs/pages_skills_advanced
             title: Skills for Advanced Users
             sections:
+              - file: docs/pages_skills_advanced_VPNclient
                 title: VPN Client
               - file: docs/pages_skills_advanced_DSRI
                 title: DSRI
@@ -84,7 +84,7 @@ parts:
               - file: docs/pages_skills_advanced_batchdownload
                 title: Batch Download
 
-    - file: docs/pages_nlp_introduction
+      - file: docs/pages_nlp_introduction
         title: NLP Introduction
         sections:
           - file: docs/pages_nlp_segmentation
@@ -131,7 +131,7 @@ parts:
             title: Witchcraft
           - file: docs/pages_tasksheet_race
             title: Race
-            
+
       - file: docs/pages_tasksheets_essays
         title: Task Sheets Essays
         sections:
@@ -141,8 +141,6 @@ parts:
             title: Girlboss
           - file: docs/pages_tasksheet_domesticviolence
             title: Domestic Violence
-        
-          
 
       - file: docs/api-examples
         title: API Examples
