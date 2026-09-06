@@ -1,6 +1,6 @@
 # **Getting started with UM VPN**
 
-The UM VPN allows you to access the university network from anywhere, which also means that it gives you access to resources that are only available to UM members. In Machines of Knowledge, you will need to VPN to view paywalled e-books and e-journals from the library when working at home, and you will also need it to access research databases licensed by Maastricht University.
+The UM VPN (Virtual Private Network) allows you to log in to the university network from anywhere, which also means that it gives you access to resources that are only available to UM users. In *Machines of Knowledge*, you will need to VPN to view paywalled e-books and e-journals from the library when working at home, and you will also need it to access research databases licensed by Maastricht University.
 
 Theoretically, VPN is also key to accessing the university's programming resources such as the DSRI (Data Science Research Infrastructure). In previous years, we used DSRI to run code for data scraping, but this component of the course is now voluntary, and we will run everything directly in your browser via Live Code. 
 
