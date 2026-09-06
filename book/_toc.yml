@@ -31,9 +31,6 @@ parts:
           - file: docs/pages_datacleaning_python
             title: Data Cleaning with Python
 
-      - file: docs/pages_dataanalysis_samples
-        title: Data Analysis Samples
-
       - file: docs/pages_datasets_intro
         title: Data Sets Intro
 
@@ -63,6 +60,8 @@ parts:
           - file: docs/pages_skills_beginners
             title: Skills for Beginners
             sections:
+              - file: docs/pages_skills_beginners_VPNclient
+                title: VPN Client
               - file: docs/pages_skills_beginners_OpenRefine
                 title: OpenRefine
               - file: docs/pages_skills_beginners_VoyantTools
@@ -73,8 +72,6 @@ parts:
           - file: docs/pages_skills_advanced
             title: Skills for Advanced Users
             sections:
-              - file: docs/pages_skills_advanced_VPNclient
-                title: VPN Client
               - file: docs/pages_skills_advanced_DSRI
                 title: DSRI
               - file: docs/pages_skills_advanced_APPLEreviews
@@ -82,7 +79,7 @@ parts:
               - file: docs/pages_skills_advanced_YOUTUBEcomments
                 title: Scrape YouTube Comments
               - file: docs/pages_skills_advanced_batchdownload
-                title: Batch Download
+                title: Batch Download DSRI
 
       - file: docs/pages_nlp_introduction
         title: NLP Introduction
