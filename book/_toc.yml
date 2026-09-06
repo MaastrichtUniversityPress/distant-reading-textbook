@@ -13,12 +13,24 @@ parts:
 
       - file: docs/pages_datacollection
         title: Data Collection
+        sections:
+          - file: docs/pages_datacollection_manual
+            title: Manual Data Collection
+          - file: docs/pages_datacollection_databases
+            title: Academic Databases
+          - file: docs/pages_datacollection_editions
+            title: Digital Scholarly Editions
 
       - file: docs/pages_datacleaning
         title: Data Cleaning
-      
-      - file: docs/pages_dataarchiving
-        title: Data Archiving
+        sections:
+          - file: docs/pages_datacleaning_overview
+            title: Purpose of Data Cleaning
+          - file: docs/pages_datacleaning_python
+            title: Data Cleaning with Python
+
+      - file: docs/pages_dataanalysis_samples
+        title: Data Analysis Samples
 
       - file: docs/pages_datasets_intro
         title: Data Sets Intro
@@ -50,26 +62,25 @@ parts:
             title: Skills for Beginners
             sections:
               - file: docs/pages_skills1_3_OpenRefine
-                title: Data Cleaning with OpenRefine
+                title: OpenRefine
               - file: docs/pages_skills2_2_casestudy
                 title: Case Study
               - file: docs/pages_skills2_1_VoyantTools
                 title: Voyant Tools
-              - file: docs/pages_skills3_presentations
+              - file: docs/pages_beginners_presentations
                 title: Presentations
 
           - file: docs/pages_skills_advanced
             title: Skills for Advanced Users
             sections:
-              - file: docs/pages_skills1_0_VPNclient
                 title: VPN Client
-              - file: docs/pages_skills1_1_DSRI
+              - file: docs/pages_skills_advanced_DSRI
                 title: DSRI
-              - file: docs/pages_skills1_2a_scrapeAPPLEreviews
+              - file: docs/pages_skills_advanced_APPLEreviews
                 title: Scrape Apple Reviews
-              - file: docs/pages_skills1_2b_scrapeYOUTUBEcomments
+              - file: docs/pages_skills_advanced_YOUTUBEcomments
                 title: Scrape YouTube Comments
-              - file: docs/pages_skills1_4_batchdownload
+              - file: docs/pages_skills_advanced_batchdownload
                 title: Batch Download
 
     - file: docs/pages_nlp_introduction
