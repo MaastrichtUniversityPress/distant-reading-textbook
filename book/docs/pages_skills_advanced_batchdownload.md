@@ -1,4 +1,4 @@
-# Batch download files from the UM DSRI
+# Batch downloads from UM DSRI
 
 To download several files in batch from the UM DSRI, you need to use the command line / terminal. This can be a bit challenging at first.
 To find the command line, on Windows computers, you have to click on the search field in your taksbar and type *cmd*.
