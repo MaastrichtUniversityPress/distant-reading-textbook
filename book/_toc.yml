@@ -26,8 +26,11 @@ parts:
         sections:
           - file: docs/pages_datacleaning_overview
             title: Purpose of Data Cleaning
+          - file: docs/pages_datacleaning_OpenRefine
+            title: Data Cleaning with Open Refine
           - file: docs/pages_datacleaning_python
             title: Data Cleaning with Python
+            
 
       - file: docs/pages_dataanalysis_samples
         title: Data Analysis Samples
@@ -61,11 +64,9 @@ parts:
           - file: docs/pages_skills_beginners
             title: Skills for Beginners
             sections:
-              - file: docs/pages_skills1_3_OpenRefine
+              - file: docs/pages_skills_beginners_OpenRefine
                 title: OpenRefine
-              - file: docs/pages_skills2_2_casestudy
-                title: Case Study
-              - file: docs/pages_skills2_1_VoyantTools
+              - file: docs/pages_skills_beginners_VoyantTools
                 title: Voyant Tools
               - file: docs/pages_beginners_presentations
                 title: Presentations
@@ -131,7 +132,6 @@ parts:
           - file: docs/pages_tasksheet_race
             title: Race
             
-
       - file: docs/pages_tasksheets_essays
         title: Task Sheets Essays
         sections:
