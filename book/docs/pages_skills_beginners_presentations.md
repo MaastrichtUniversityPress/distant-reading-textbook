@@ -1,6 +1,8 @@
 # Giving a presentation in Machines of Knowledge
 
-Students in Machines of Knowledge are asked to give group presentations on a small data set, using Voyant for distant reading. The presentations should be 10 minutes long. Please consult the teaching platform CANVAS for further details. In general, we would like you to go through the following workflow with your team:
+Students in Machines of Knowledge are asked to give group presentations on a small data set, using Voyant for distant reading. The presentations should be 10 minutes long. Please consult the teaching platform CANVAS for further details. You can find some sample analyses from past study years here: [Sample Analyses PPT](https://github.com/MaastrichtUniversityPress/distant-reading-textbook/tree/main/book/sample_analyses)
+
+In general, we would like you to go through the following workflow with your team:
 
 ## Ingest your data into Voyant Tools
 
