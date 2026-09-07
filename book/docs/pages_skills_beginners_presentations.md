@@ -2,6 +2,16 @@
 
 Students in Machines of Knowledge are asked to give group presentations on a small data set, using Voyant for distant reading. The presentations should be 10 minutes long. Please consult the teaching platform CANVAS for further details. You can find some sample analyses from past study years here: [Sample Analyses PPT](https://github.com/MaastrichtUniversityPress/distant-reading-textbook/tree/main/book/sample_analyses)
 
+Each group of students ought to prepare a **presentation of five slides** that contains the following elements:
+
+1) What data set have you chosen and why?
+2) What were your first observations? What came up as the central, most prominent themes?
+3) Were there any additional, perhaps more hidden, themes that you discovered in the data? How did you find them, and why are they important?
+4) What has the data analysis taught you about your case study? What have you learned that you would not have seen (so seen) via close reading?
+5) Was there anything unexpected or problematic?
+
+Each group will have 10 minutes to present their results to the class. As several groups will have worked on the same data sets, it will be interesting to compare your results. Apart from challenges, we will also cover the strengths of Voyant as a tool of comparative text analysis. Most importantly, you will have the opportunity to discuss workflow problems in preparation for your final essays.
+
 In general, we would like you to go through the following workflow with your team:
 
 ### Ingest your data into Voyant Tools
