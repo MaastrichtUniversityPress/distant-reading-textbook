@@ -1,10 +1,12 @@
-# An introduction to Voyant Tools
+## An introduction to Voyant Tools
 
-## Why text analysis with Voyant Tools
+In the second skills session session for the Research Method and Skills training in *Machines of Knowledge*, we will perform a detailed data analysis in Voyant Tools, based on your tutor's sample data. We will discuss if all tools in Voyant are equally suitable for each research question or data set, and we will look at an exemplary text analysis workflow that takes us from general, high-level observations to a detailed and comparative analysis of individual keywords.
+
+### Why text analysis with Voyant Tools
 
 Voyant Tools is a web-based text analysis and visualization platform that is popular in the humanities and social sciences. Voyant Tools is user-friendly and freely available online. It can be used by researchers without any technical expertise. The platform offers a variety of data visualisations, such as word clouds, word frequency charts, and dispersion plots, which can help users identify patterns, trends, and anomalies in a text corpus. Visualisations can make it easier to engage with and interpret large amounts of textual data (that may be impossible to read in a reasonable amount of time). Researchers can adjust parameters, apply filters, and experiment with various visualizations to uncover new perspectives. This process of computational text analysis is also called *distant reading* (as opposed to traditional *close reading*).
 
-## Ingest your data into Voyant Tools
+### Ingest your data into Voyant Tools
 
 Go to the [Voyant Tools](https://voyant-tools.org/) website and simply paste your raw text or the URL of raw text data (as stored in Github) into the "add text" field (see Figure 1). If you have data in .txt format (individual file) or several files in a .zip archive, you can use the upload option to ingest the files. Press the blue "reveal" button and start exploring the data set!
 
@@ -12,7 +14,7 @@ Go to the [Voyant Tools](https://voyant-tools.org/) website and simply paste you
 
 **Figure 1:** Uploading text data to Voyant Tools using the *Add Texts* field.
 
-## Steps of text analysis in Voyant
+### Steps of text analysis in Voyant
 
 The following four steps describe an exemplary text analysis in Voyant and can serve as a guideline for your own work. The idea is to progress from more high-level observations to a more detailed and comparative analysis of your data set(s).
 
@@ -59,7 +61,6 @@ If you have more than one text, you will see that the trends graph show each tex
 
 **Figure 5:** Voyant Tools *Correlations* tool showing term-to-term correlation coefficients.
 
-
 **Step 4: Reading Keywords in Context**
 
 - The [Contexts](https://voyant-tools.org/docs/tutorial-contexts.html) (or Keywords in Context) tool (see Figure 6) shows each occurrence of a keyword with a bit of surrounding text (the context). It can be useful for studying more closely how terms are used in different contexts (Voyant Official Website, 2018).
@@ -96,5 +97,3 @@ https://hdl.handle.net/10125/73446
 - Zaidi, S., & Allahdad, S. (2023). Analyzing recent (2019) Kashmir socio-political issue: A Voyant sentiment analysis of tweets. *Linguistics and Literature Review, 9*(2), 20–46. https://doi.org/10.32350/llr.92.02
 - Zeller, F. (2022). The good, the bad, and the how-to of analysing social media data. In L. Sloan & A. Quan-Haase (Eds.), *The SAGE handbook of social media research methods* (2nd ed.). SAGE.
 https://doi.org/10.4135/9781529782943
-
-
