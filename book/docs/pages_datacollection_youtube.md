@@ -1,12 +1,16 @@
-# Data scraping from YouTube
+## Using YouTube comments as research sources
 
-## Using YouTube comments as data source
+YouTube comments are a rich source for studying public discourse, cultural trends, and audience engagement. As user-generated content, they often provide unfiltered, spontaneous reactions to videos. These comments often include emotional language, controversial statements, emojis, and (hidden) cultural references. This brings both benefits and challenges for the analysis. In many cases, YouTube comments need to be cleaned before they can be used in academic research. It is especially important to remove advertising and click-baiting comments unrelated to the video.
 
-Working with YouTube comments as a data source can be interesting because content published on YouTube ranges from academic talks to cooking instructions, sports commentary, and music videos, allowing us to capture user opinions on a wide range of issues. 
+### Playlists
 
-## Collecting YouTube comments using the Google API and Python
+One effective strategy for organizing YouTube videos for analysis is to use playlists. Playlists, whether curated by others or created by the researcher, can help group videos around core topics before collecting and analyzing comments. This makes building a larger corpus easier. Comments from entire playlists can also be collected automatically via the Google API. A Python script in this handbook demonstrates how to do it, but you will need a valid API key first. 
+
+### Collecting YouTube comments using the Google API and Python
 
 In order to work with YouTube comments, you need a Google API key that allows you to access this data (e.g. via a Python script). In my courses, I usually let students use my API keys for testing, but it is highly recommended that they sign up for their own keys later.
+
+First, you need to log in to the Google Developers Console. There you can create a new project. On the new project dashboard, click **Explore & Enable APIs**. You will now see a search option to specify which Google service you want to use. If you are interested in getting access to YouTube, type "YouTube" in the search box and then navigate to **YouTube Data API v3** listed under YouTube APIs. Enable the API and select the option to create a new credential. A screen will appear with your new API key.
 
 In addition to the API key, you will also need the URL of a playlist whose video comments you want to collect. For testing purposes, I typically use the URL of an Asian food playlist as a sample:
 
@@ -36,3 +40,4 @@ If you prefer using R instead of Python, the [**tuber**](https://cran.r-project.
 ## Code demo video
 
 [MONIKA WILL PROVIDE A DEMO VIDEO SOON!]
+

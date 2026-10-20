@@ -14,4 +14,3 @@ Mastodon will, therefore, not give you a broad insight into a wide range of soci
 - With user-defined limits: https://mastodon.example/api/v1/timelines/public?limit=2
 
 For a full documentation on querying Mastodon with Python, please read the [Mastodonpy documentation](https://mastodonpy.readthedocs.io/en/stable/).
-

@@ -1,14 +1,14 @@
-# Scraping news items via the Google API
+## Scraping news items via the Google API
 
-## Use cases and limitations
+### Use cases and limitations
 
 When working on contemporary political and social issues, getting "treding" news via the Google API can be one solution for a relatively fast data collection. Unfortunately, the way in which Google News entries are ranked is not entirely transparent. The [Google Publisher Help Center](https://support.google.com/news/publisher-center/answer/9606702?hl=en) states that "ranking in Google News is determined algorithmically" and mentions "relevance of content", "prominence", "authoritativeness", "freshness", "location" and "language" as the most important factors. However, criteria such as "freshness" are not specified and scraping of news items shows that many articles are ranked highly for several days in a row. This is why working with Google News always requires a critical reflection on the data retrieved.
 
-## Overview of available Google News API scraper on Github
+### Overview of available Google News API scraper on Github
 
 Github has a helpful [overview of code and apps](https://github.com/topics/google-news-scraper) that can be used to scrape Google News. Most of these respositories provide information on scraping metadata, but not the actual text behind the articles (see information below). A considerable number of the scripts for extracting news via the Google API are written in Python, a programming language that is very popular in the digital humanities and social sciences. What you have to keep in mind is that most of the scripts are written by developers who are not paid for maintenance and who may therefore abandon the scripts after a while. API changes on the side of Google or upgrades for dependent packages can, therefore, result in depricated code.
  
-## Options to scrape Google News content by time or region
+### Options to scrape Google News content by time or region
 
 Several forum discussions, e.g. on Stackoverflow, cover the different scraping options for Google News and the challenges they may pose. The parameters that the Google News API allows for data selection are documented [here](https://serpapi.com/google-news-api). One problem is that Google News now only permit a collection of 100 items max. per query, and it is unfortunately not possible to scrape news by the hour (see [this question](https://stackoverflow.com/questions/73072802/web-scraping-articles-from-google-news) on Stackoverflow and the relevant responses. The smallest time frame that can be selected is one day. But collecting news across a longer time frame is still possible when looping through a longer period of time. It can also help to combine scraping data per day with scraping data per country as the default setting in Google news is to collect US news.
 
@@ -80,11 +80,11 @@ However, in many cases, all countries across the world are shown the exact same 
 
 You should, therefore, focus more on scraping by timeframe than on a specific region. Getting the metadata of the news items such as title, publisher and date in JSON format is very easy, but scraping the underlying full-text items is a more challenging issue.
 
-## The challenge of getting full-text behind the Google News links
+### The challenge of getting full-text behind the Google News links
 
 The Google News scraping gives us a JSON file with basic metadata. However, this does not automatically give us the text content of the articles. The links that you get when interacting with the Google News site are not the actual links of the original news publishers but Google links that redirect to the original pages. When calling those links via script, you also have to find a way to let your machine accept cookies / terms and conditions before you can proceed. Visiting the weblinks as a human, you will see a pop-up asking you for confirmation. Without a confirmation, Google will not let you access the sources. This process thus needs to be automated for all scraped links. Running the code locally on your own computer gives you the possibility to manage this via a pre-set (Google Chrome) browser profile, but when you use the code (for teaching) in an environment like the Maastricht Data Science Research Infrastructure (DSRI), this is much more difficult to achieve. When we first worked with Google News scraping in 2023, we could successfully get the full-text content using the *newspaper3k* package within Anaconda environments on both Windows and MAC, but this solution did not function within DSRI. [*Newspaper3k*](https://newspaper.readthedocs.io/en/latest/) is a Python package for article scraping and curation. Compatible with Python3, it leverages lxml and it extracts articles from diverse web sources. Installation information: https://pypi.org/project/newspaper3k/
 
-## Adjusting the code for different environments
+### Adjusting the code for different environments
 
 To run the code in your own environment, e.g. your university's Jupyterlab, you need to change the first few lines of code relating to paths and package imports. On the Maastricht University DSRI, you need to import the relevant packages via <code>!pip install</code>, and it may also be necessary to define a specific output directory. 
 
@@ -93,7 +93,7 @@ If you are a member of an academic institution, consult with your ICT department
 - option to get content directly from the websites: https://stackoverflow.com/questions/56829861/how-to-scrape-google-news-articles-content-from-google-news-rss
 - this script has an option to scrape <code>article.text()</code> to CSV: https://github.com/pratikpv/google_news_scraper_and_sentiment_analyzer/blob/master/google_news_scraper.py
 
-## Running code on Colab
+### Running code on Colab
 
 It is also possible to run code in the easy-to-use Google Colab environment if you run into issues otherwise, but for academic settings, this is not recommended. Should you wish to access Google News via script in Google Colab, you also need to register your own Google API: 
 

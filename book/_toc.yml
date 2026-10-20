@@ -8,7 +8,7 @@ parts:
       - file: docs/index
         title: Introduction
 
-      - file: docs/pages_distantreading_overview
+      - file: docs/pages_distantreading
         title: Introduction to Distant Reading
 
       - file: docs/pages_welcome
@@ -72,45 +72,41 @@ parts:
             title: Digital Collections
           - file: docs/pages_datacollection_editions
             title: Digital Scholarly Editions
-          - file: docs/pages_datacollection_YouTube
+          - file: docs/pages_datacollection_youtube
             title: YouTube
           - file: docs/pages_datacollection_podcastreviews
             title: Podcast Reviews
-          - file: docs/pages_datascraping_applestore
-            title: Apple Store
             sections:
-              - file: docs/pages_datascraping_applestore_python
-                title: Apple Store with Python
-          - file: docs/pages_datascraping_googlenews
+              - file: docs/pages_datacollection_applestore_python
+                title: Python code for Apple Store
+          - file: docs/pages_datacollection_googlenews
             title: Google News
-          - file: docs/pages_datascraping_mastodon
+          - file: docs/pages_datacollection_mastodon
             title: Mastodon
-          - file: docs/pages_datascraping_Meta
+          - file: docs/pages_datacollection_meta
             title: Meta
-          - file: docs/pages_datascraping_reddit
+          - file: docs/pages_datacollection_reddit
             title: Reddit
           - file: docs/pages_datascraping_twitter
             title: Twitter / X
-          - file: docs/pages_datascraping_youtube
-            title: YouTube (Scraping)
-          - file: docs/pages_datascraping_GoogleAPI
-            title: Google API
+          - file: docs/pages_datacollection_youtube
+            title: YouTube
+          - file: docs/pages_datacollection_googlenews
+            title: Google News
 
       - file: docs/pages_datacleaning
         title: Data Cleaning
         sections:
-          - file: docs/pages_datacleaning_overview
-            title: Purpose of Data Cleaning
-          - file: docs/pages_skills_beginners_OpenRefine
+          - file: docs/pages_datacleaning_openrefine
             title: Data Cleaning with OpenRefine
           - file: docs/pages_datacleaning_python
             title: Data Cleaning with Python
 
+      - file: docs/pages_dataarchiving
+        title: Data Archiving
+      
       - file: docs/pages_datasets_intro
         title: Sample Data
-        sections:
-          - file: docs/pages_dataarchiving
-            title: Data Archiving
 
       - file: docs/pages_dataanalysis_samples
         title: Sample Analyses
