@@ -11,79 +11,43 @@ parts:
       - file: docs/pages_distantreading_overview
         title: Introduction to Distant Reading
 
-      - file: docs/pages_datacollection
-        title: Data Collection
+      - file: docs/pages_welcome
+        title: Machines of Knowledge DCU4008
         sections:
-          - file: docs/pages_datacollection_manual
-            title: Manual Data Collection
-          - file: docs/pages_datacollection_databases
-            title: Academic Databases
-          - file: docs/pages_datacollection_editions
-            title: Digital Scholarly Editions
+          - file: docs/pages_lecture1
+            title: Lecture 1
+          - file: docs/pages_lecture2
+            title: Lecture 2
+          - file: docs/pages_lecture3
+            title: Lecture 3
+          - file: docs/pages_lecture4
+            title: Lecture 4
+          - file: docs/pages_tutorial_week1
+            title: Tutorial Week 1
+          - file: docs/pages_tutorial_week2
+            title: Tutorial Week 2
+          - file: docs/pages_tutorial_week3
+            title: Tutorial Week 3
+          - file: docs/pages_tutorial_week4
+            title: Tutorial Week 4
+          - file: docs/pages_tutorial_week5
+            title: Tutorial Week 5
+          - file: docs/pages_tutorial_week6
+            title: Tutorial Week 6
+          - file: docs/pages_tutorial_week7
+            title: Tutorial Week 7
 
-      - file: docs/pages_datacleaning
-        title: Data Cleaning
+      - file: docs/pages_skills_beginners_VPNclient
+        title: NLP on the Maastricht DSRI
         sections:
-          - file: docs/pages_datacleaning_overview
-            title: Purpose of Data Cleaning
-          - file: docs/pages_datacleaning_OpenRefine
-            title: Data Cleaning with Open Refine
-          - file: docs/pages_datacleaning_python
-            title: Data Cleaning with Python
-
-      - file: docs/pages_datasets_intro
-        title: Data Sets Intro
-
-      - file: docs/pages_datascraping_overview
-        title: Data Scraping
-        sections:
-          - file: docs/pages_datascraping_applestore
-            title: Apple Store
-          - file: docs/pages_datascraping_googlenews
-            title: Google News
-          - file: docs/pages_datascraping_mastodon
-            title: Mastodon
-          - file: docs/pages_datascraping_Meta
-            title: Meta
-          - file: docs/pages_datascraping_reddit
-            title: Reddit
-          - file: docs/pages_datascraping_twitter
-            title: Twitter
-          - file: docs/pages_datascraping_youtube
-            title: YouTube
-          - file: docs/pages_datascraping_GoogleAPI
-            title: Google API
-
-      - file: docs/pages_skills_overview
-        title: Skills
-        sections:
-          - file: docs/pages_skills_beginners
-            title: Skills for Beginners
-            sections:
-              - file: docs/pages_skills_beginners_VPNclient
-                title: VPN Client
-              - file: docs/pages_skills_beginners_OpenRefine
-                title: OpenRefine
-              - file: docs/pages_skills_beginners_VoyantTools
-                title: Voyant Tools
-              - file: docs/pages_beginners_presentations
-                title: Presentations
-
-          - file: docs/pages_skills_advanced
-            title: Skills for Advanced Users
-            sections:
-              - file: docs/pages_skills_advanced_DSRI
-                title: DSRI
-              - file: docs/pages_skills_advanced_APPLEreviews
-                title: Scrape Apple Reviews
-              - file: docs/pages_skills_advanced_YOUTUBEcomments
-                title: Scrape YouTube Comments
-              - file: docs/pages_skills_advanced_batchdownload
-                title: Batch Download DSRI
+          - file: docs/pages_skills_advanced_batchdownload
+            title: Batch Download DSRI
 
       - file: docs/pages_nlp_introduction
-        title: NLP Introduction
+        title: NLP Spotlights
         sections:
+          - file: docs/pages_nlp_overview
+            title: NLP Overview
           - file: docs/pages_nlp_segmentation
             title: Segmentation
           - file: docs/pages_nlp_topicmodels
@@ -96,6 +60,57 @@ parts:
             title: Spatial Data
           - file: docs/pages_nlp_sentimentanalysis
             title: Sentiment Analysis
+
+      - file: docs/pages_datacollection
+        title: Data Collection
+        sections:
+          - file: docs/pages_datacollection_overview
+            title: Overview
+          - file: docs/pages_datacollection_manual
+            title: Manual Data Collection
+          - file: docs/pages_datacollection_databases
+            title: Digital Collections
+          - file: docs/pages_datacollection_editions
+            title: Digital Scholarly Editions
+          - file: docs/pages_datacollection_YouTube
+            title: YouTube
+          - file: docs/pages_datacollection_podcastreviews
+            title: Podcast Reviews
+          - file: docs/pages_datascraping_applestore
+            title: Apple Store
+            sections:
+              - file: docs/pages_datascraping_applestore_python
+                title: Apple Store with Python
+          - file: docs/pages_datascraping_googlenews
+            title: Google News
+          - file: docs/pages_datascraping_mastodon
+            title: Mastodon
+          - file: docs/pages_datascraping_Meta
+            title: Meta
+          - file: docs/pages_datascraping_reddit
+            title: Reddit
+          - file: docs/pages_datascraping_twitter
+            title: Twitter / X
+          - file: docs/pages_datascraping_youtube
+            title: YouTube (Scraping)
+          - file: docs/pages_datascraping_GoogleAPI
+            title: Google API
+
+      - file: docs/pages_datacleaning
+        title: Data Cleaning
+        sections:
+          - file: docs/pages_datacleaning_overview
+            title: Purpose of Data Cleaning
+          - file: docs/pages_skills_beginners_OpenRefine
+            title: Data Cleaning with OpenRefine
+          - file: docs/pages_datacleaning_python
+            title: Data Cleaning with Python
+
+      - file: docs/pages_datasets_intro
+        title: Sample Data
+        sections:
+          - file: docs/pages_dataarchiving
+            title: Data Archiving
 
       - file: docs/pages_dataanalysis_samples
         title: Sample Analyses
@@ -110,6 +125,8 @@ parts:
             title: British Monarchy
           - file: docs/pages_dataanalysis_menstruation
             title: Menstruation
+          - file: docs/pages_dataanalysis_reviewsCSV
+            title: Review Data (CSV)
 
       - file: docs/pages_tasksheets_presentations
         title: Task Sheets Group Presentations
@@ -138,9 +155,3 @@ parts:
             title: Girlboss
           - file: docs/pages_tasksheet_domesticviolence
             title: Domestic Violence
-
-      - file: docs/api-examples
-        title: API Examples
-
-      - file: docs/markdown-examples
-        title: Markdown Examples
