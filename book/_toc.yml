@@ -11,7 +11,7 @@ parts:
       - file: docs/pages_distantreading
         title: Introduction to Distant Reading
 
-      - file: docs/pages_welcome
+      - file: docs/pages_mok
         title: Machines of Knowledge DCU4008
         sections:
           - file: docs/pages_lecture1
@@ -151,3 +151,6 @@ parts:
             title: Girlboss
           - file: docs/pages_tasksheet_domesticviolence
             title: Domestic Violence
+
+      - file: docs/pages_credits
+        title: Credits
