@@ -10,6 +10,7 @@ html:
 sphinx:
   extra_extensions:
     - teachbooks_favourites
+    - sphinxcontrib.youtube
 
   config:
 

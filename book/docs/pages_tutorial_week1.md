@@ -6,7 +6,29 @@ Week 1 is a preparation week, and there is no contact time between students and 
 
 ### Videos: Introduction to the Course and a Brief History of the Web
 
-Your first task is to watch a series of pre-recorded videos that introduce you to the course and the history of the web. Please see the **Modules section on CANVAS** for details.
+Your first task is to watch a series of pre-recorded videos that introduce you to the course and the history of the web.
+
+#### How the web began
+
+```{youtube} sSqZ_hJu9zA
+\:title: A brief history of the World Wide Web
+```
+
+This video, published by the European Organization for Nuclear Research (CERN) on 4 May 2019, summarises in 3 minutes how the Web was invented. CERN pioneered the introduction of the TCP/IP communication protocols for its intranet in the 1980s. This paved the way for the development of the World Wide Web that allows global content sharing over the Internet using the Hypertext Transfer Protocol (HTTP). The initial goal of the World Wide Web was information exchange between researchers.
+
+#### Where the web is going
+
+```{youtube} yTw_9Po-tXkMU0Pd
+\:title: Is the Internet Actually Dying? (It’s Worse Than You Think)
+```
+This video was published on 28 September 2026 by Deutsche Welle (DW), a German public broadcast service providing content in English.
+
+#### What venture capitalists would like the Web to be
+
+```{youtube} Wdt_VizTDq9UNMVR
+\:title: Why Some See Web 3.0 as the Future of the Internet
+```
+This video was published on 15 February 2022 by the Wallstreet Journal, an American business magazine. It discusses Web 3.0 as a vision for a decentralized, highly interactive web based on the blockchain. 
 
 ### Suggested Readings
 
