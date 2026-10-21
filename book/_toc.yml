@@ -22,6 +22,15 @@ parts:
             title: Lecture 3
           - file: docs/pages_lecture4
             title: Lecture 4
+          - file: docs/pages_skills
+            title: Skills Sessions
+            sections:
+            - file: docs/pages_skills_session1
+              title: Skills Session 1
+            - file: docs/pages_skills_session1
+              title: Skills Session 2
+            - file: docs/pages_skills_session1
+              title: Skills Session 3
           - file: docs/pages_tutorial_week1
             title: Tutorial Week 1
           - file: docs/pages_tutorial_week2
@@ -107,7 +116,7 @@ parts:
       - file: docs/pages_dataarchiving
         title: Data Archiving
       
-      - file: docs/pages_datasets_intro
+      - file: docs/pages_datasets
         title: Sample Data
 
       - file: docs/pages_dataanalysis_samples
@@ -154,5 +163,5 @@ parts:
           - file: docs/pages_tasksheet_domesticviolence
             title: Domestic Violence
 
-      - file: docs/pages_credits
-        title: Credits
+      - file: docs/pages_acknowledgements
+        title: Acknowledgements
