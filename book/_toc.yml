@@ -37,10 +37,12 @@ parts:
           - file: docs/pages_tutorial_week7
             title: Tutorial Week 7
 
-      - file: docs/pages_skills_beginners_VPNclient
+      - file: docs/pages_dsri
         title: NLP on the Maastricht DSRI
         sections:
-          - file: docs/pages_skills_advanced_batchdownload
+          - file: docs/pages_dsri_vpnclient
+            title: Set up UM VPN Client
+          - file: docs/pages_dsri_batchdownload
             title: Batch Download DSRI
 
       - file: docs/pages_nlp_introduction
