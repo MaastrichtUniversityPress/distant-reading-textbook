@@ -18,14 +18,14 @@ This video, published by the European Organization for Nuclear Research (CERN) o
 
 #### Where the web is going
 
-```{youtube} yTw_9Po-tXkMU0Pd
+```{youtube} WIPgISQ5Bhg
 \:title: Is the Internet Actually Dying? (It’s Worse Than You Think)
 ```
 This video was published on 28 September 2026 by Deutsche Welle (DW), a German public broadcast service providing content in English.
 
 #### What venture capitalists would like the Web to be
 
-```{youtube} Wdt_VizTDq9UNMVR
+```{youtube} OEJGQD1OuKA
 \:title: Why Some See Web 3.0 as the Future of the Internet
 ```
 This video was published on 15 February 2022 by the Wallstreet Journal, an American business magazine. It discusses Web 3.0 as a vision for a decentralized, highly interactive web based on the blockchain. 
@@ -33,16 +33,10 @@ This video was published on 15 February 2022 by the Wallstreet Journal, an Ameri
 ### Suggested Readings
 
 - Abbate, J. (1999). *Inventing the Internet*. MIT Press.
-- Meyer, E. T., & Schroeder, R. (2015). *Knowledge Machines: Digital Transformations of the Sciences and Humanities*. MIT Press.
-- Brügger, N., & Schroeder, R. (Eds.). (2017). *The Web as History: Using Web Archives to Understand the Past and the Present*. UCL Press.
-- Brügger, N. (2018). *The Archived Web: Doing History in the Digital Age*. The MIT Press.
 - Brügger, N., & Milligan, I. (2019). *The SAGE Handbook of Web History*. SAGE.
-
-### Further Readings
-
-- Bruns, A. (n.d.). *FCJ-066 The Future Is User-Led: The Path towards Widespread Produsage*. Retrieved from [http://eleven.fibreculturejournal.org/fcj-066-the-future-is-user-led-the-path-towards-widespread-produsage/](http://eleven.fibreculturejournal.org/fcj-066-the-future-is-user-led-the-path-towards-widespread-produsage/).
 - Evens, A. (2012). Web 2.0 and the Ontology of the Digital. *Digital Humanities Quarterly, 006*(2).
 - Floridi, L. (2009). Web 2.0 vs. the Semantic Web: A Philosophical Assessment. *Episteme, 6*(1), 25–37.
+- Meyer, E. T., & Schroeder, R. (2015). *Knowledge Machines: Digital Transformations of the Sciences and Humanities*. MIT Press.
 - Weber, M. S. (2017). The Tumultuous History of News on the Web. In N. Brügger & R. Schroeder (Eds.), *The Web as History: Using Web Archives to Understand the Past and the Present* (pp. 83–100). UCL Press.
 
 ## Task 1.2: Investigative and Data-Driven Journalism
