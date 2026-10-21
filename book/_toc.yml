@@ -86,7 +86,9 @@ parts:
           - file: docs/pages_datacollection_podcastreviews
             title: Podcast Reviews
             sections:
-              - file: docs/pages_datacollection_applestore_python
+              - file: docs/pages_datacollection_applestore_scraper
+                title: Python code for Apple Store
+              - file: docs/pages_datacollection_applestore_quickanalysis
                 title: Python code for Apple Store
           - file: docs/pages_datacollection_mastodon
             title: Mastodon
