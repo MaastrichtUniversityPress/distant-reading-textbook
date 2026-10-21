@@ -27,9 +27,9 @@ parts:
             sections:
             - file: docs/pages_skills_session1
               title: Skills Session 1
-            - file: docs/pages_skills_session1
+            - file: docs/pages_skills_session2
               title: Skills Session 2
-            - file: docs/pages_skills_session1
+            - file: docs/pages_skills_session3
               title: Skills Session 3
           - file: docs/pages_tutorial_week1
             title: Tutorial Week 1
@@ -83,15 +83,11 @@ parts:
             title: Digital Collections
           - file: docs/pages_datacollection_editions
             title: Digital Scholarly Editions
-          - file: docs/pages_datacollection_youtube
-            title: YouTube
           - file: docs/pages_datacollection_podcastreviews
             title: Podcast Reviews
             sections:
               - file: docs/pages_datacollection_applestore_python
                 title: Python code for Apple Store
-          - file: docs/pages_datacollection_googlenews
-            title: Google News
           - file: docs/pages_datacollection_mastodon
             title: Mastodon
           - file: docs/pages_datacollection_meta
