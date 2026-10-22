@@ -1,6 +1,6 @@
-# Body Image in Social Media
+## Body Image in Social Media
 
-The following sample analysis is based on a dataset collected by **MA Digital Cultures student [Caroline Déharbe](https://nl.linkedin.com/in/caroline-d%C3%A9harbe-013669185/fr)** during the 2024/2025 academic year and reuses the academic literature and theoretical approaches from Caroline's original essay. It demonstrates how **Voyant Tools** can be used to analyze societal discussions around beauty standards, gender roles, and cultural expectations in **podcast reviews**.
+:book: The following sample analysis is based on a dataset collected by **MA Digital Cultures student [Caroline Déharbe](https://nl.linkedin.com/in/caroline-d%C3%A9harbe-013669185/fr)** during the 2024/2025 academic year and reuses the academic literature and theoretical approaches from Caroline's original essay. It demonstrates how **Voyant Tools** can be used to analyze societal discussions around beauty standards, gender roles, and cultural expectations in **podcast reviews**.
 
 ### Why study body image in social media data?
 
@@ -39,11 +39,11 @@ The comments for these podcasts were scaped with the Python script provided in t
 ## Theoretical approach: Data feminism as a way to highlight social dimensions
 
 Jovanovski and Jaeger (2024) identify two primary strategies for resisting diet culture: individual effort and social dimension. The first strategy emphasizes the need for individuals to dismantle internalized beliefs. The second strategy underscores the importance of collective action, as diet culture is perpetuated through social interactions and societal norms. According to Jovanovski and Jaeger (2022), the social dimension of health and body debates is closely linked with systemic oppressions through financial dependencies, racism, or patriarchy. To analyse what roles the social dimension plays in my collected podcast reviews, I will apply a data feminist approach. 
-Data feminism (D’Ignazio & Klein, 2020) emphasizes that we have to carefully examine power structures such as economic imbalances, challenge binaries, and elivate marginalized voices such as racial or gender minorities. This aligns with Jovanovski and Jaegers systemic oppressions and will help me aswer the research question.
+Data feminism (D’Ignazio & Klein, 2020) emphasizes that we have to carefully examine power structures such as economic imbalances, challenge binaries, and elivate marginalized voices such as racial or gender minorities. This aligns with Jovanovski and Jaeger's critique of *systemic oppressions* and will help me aswer the research question.
 
 ## Methodology: Distant and close reading with Voyant
 
-The analysis will consist in a combination of distant and close reading using Voyant Tools. For a more quantitative analysis, I will use the trends graph (Figure 1) to reveal relative frequencies of key terms in my data set. However, algorithms may miss linguistic nuances such as African American Vernacular English (AAVE), as noted by Risam, 2016. This is why I will also make use of the contexts tables (Figures 2 to 5) that show me words in their original reviews and help me to better interpret sentiment and intent.
+The analysis will consist in a combination of distant and close reading using Voyant Tools. For a more quantitative analysis, I will use the trends graph (Figure 1) to reveal relative frequencies of key terms in my data set. However, algorithms may miss linguistic nuances such as African American Vernacular English (AAVE), as noted by Risam (2016). This is why I will also make use of the contexts tables (Figures 2 to 5) that show me words in their original reviews and help me to better interpret sentiment and intent.
 
 ## Data Analysis
 
