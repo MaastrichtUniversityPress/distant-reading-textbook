@@ -81,6 +81,8 @@ parts:
             title: Manual Data Collection
           - file: docs/pages_datacollection_databases
             title: Digital Collections
+          - file: docs/pages_datacollection_twitter
+            title: Twitter / X
           - file: docs/pages_datacollection_editions
             title: Digital Scholarly Editions
           - file: docs/pages_datacollection_podcastreviews
