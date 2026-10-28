@@ -1,15 +1,17 @@
-### Task 6.1: Homework Discussion – Voyant Tools for Business Intelligence
+### Task 6.1: Homework Discussion – Distant reading
 
-In this session, we will discuss how **Voyant Tools**, a suite of computational text analysis tools, can be applied to **business intelligence**. While Voyant is often used in academic research, its capabilities are also valuable for **analyzing market trends, customer feedback, and competitive intelligence**.
+We will discuss the four readings on feminist and postcolonial perspectives.
 
-We will explore how businesses can use Voyant to **extract insights from large datasets**, such as customer reviews, social media comments, or industry reports. For example, how can **word frequency analysis** help identify key themes in customer feedback? How can **co-occurrence networks** reveal relationships between different products or services?
+### Task 6.2: Voyant Tools for Business Intelligence
 
-This session will also consider the **limitations and ethical considerations** of using Voyant for business intelligence, such as **data privacy, bias, and the need for human interpretation**. By the end of the discussion, you will have a clearer understanding of how to **leverage Voyant Tools in a business context** and how to apply computational methods to real-world challenges.
+In this session, we will discuss how Voyant Tools can be applied to business intelligence. While Voyant is mostly used as a beginners' tool in higher education, its capabilities are also valuable for analyzing market trends or customer feedback. As a homework, you will read a paper to explore how businesses can use Voyant to extract insights from unstructured datasets. However, you should also reflect on the limitations and ethical challenges.
 
-### Task 6.2: Final Essay Q&A
+#### Required reading
 
-In this session, we will focus on **addressing your questions and concerns** about the final essay. This is an opportunity to clarify any uncertainties you may have about the **requirements, structure, or content** of your essay.
+Hetenyi, G., Lengyel, A., & Szilasi, M. (2019). Quantitative analysis of qualitative data: Using Voyant Tools to investigate the sales-marketing interface. Journal of Industrial Engineering and Management, 12(3), 393–404. [https://doi.org/10.3926/jiem.2929](https://doi.org/10.3926/jiem.2929)
 
-We will discuss common challenges in **writing a research-based essay**, such as **formulating a research question, organizing your argument, and integrating theoretical frameworks**. You will also have the chance to **share your progress** and receive feedback from your peers and instructor.
+From the abstract: "The present study aims to give a short introduction into the possibilities offered by Voyant Tools to quantitatively explore qualitative data on the Sales-Marketing Interface (SMI). (...) The study is exploratory in nature. The sample consists of sales and marketing employees of six manufacturing companies. Answers to three open-ended questions were analysed quantitatively and visualised in various ways using the online toolset of Voyant Tools. We experimented with four different tools out of the twenty four offered by Voyant Tools. These tools were: Cyrrus tool, Correlation tool, Topics tool and Scatter plot tool. All four tools that were tested on the data have scalable parameters. Various settings were tested to demonstrate how input conditions influence modelling of the textual data."
 
-By the end of this session, you should feel more confident about **finalizing your essay** and submitting a strong, well-supported piece of work.
+### Task 6.3: Final Essay Q&A
+
+In the last part of the tutorial session, we will focus on addressing your questions and concerns about the final essay. This is an opportunity to clarify any uncertainties you may have about the requirements, structure, or content of your essay.
