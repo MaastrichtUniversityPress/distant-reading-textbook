@@ -57,8 +57,6 @@ parts:
       - file: docs/pages_nlp_introduction
         title: NLP Spotlights
         sections:
-          - file: docs/pages_nlp_overview
-            title: NLP Overview
           - file: docs/pages_nlp_segmentation
             title: Segmentation
           - file: docs/pages_nlp_topicmodels
