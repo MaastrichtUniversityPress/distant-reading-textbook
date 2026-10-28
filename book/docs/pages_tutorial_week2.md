@@ -35,13 +35,23 @@ During class and / or after class, write down your observations and bring them t
 
 <img width="953" height="379" alt="image" src="https://github.com/user-attachments/assets/6cef6e03-a9e1-43c3-b9e5-c5a408424c0f" />
 
+Chart 1, using a small sample of inaugural speeches delivered by American presidents
+
 <img width="1025" height="424" alt="image" src="https://github.com/user-attachments/assets/1868a120-6935-4f46-bebd-c5f82fb91bc8" />
+
+Chart 2, using a small sample of inaugural speeches delivered by American presidents
 
 <img width="1455" height="804" alt="image" src="https://github.com/user-attachments/assets/83748e66-cde2-41bc-8dfc-fb96d8b0fd8e" />
 
+Chart 3, using the 1801 inaugural speech by Thomas Jefferson
+
 <img width="1491" height="902" alt="image" src="https://github.com/user-attachments/assets/4d6b6ebc-f734-4abf-bb8e-1ff4996b6db1" />
 
+Chart 4, using the 1801 inaugural speech by Thomas Jefferson
+
 <img width="1825" height="200" alt="image" src="https://github.com/user-attachments/assets/f6dbc1fc-845a-4421-98aa-03486ee51b98" />
+
+Chart 5, using the 1801 inaugural speech by Thomas Jefferson
 
 ## Homework for Week 3
 
