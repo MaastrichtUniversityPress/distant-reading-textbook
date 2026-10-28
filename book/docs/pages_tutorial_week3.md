@@ -1,4 +1,6 @@
-### Task 3.1: Homework Discussion – Charts used in Voyant Tools
+# Week 3
+
+## Task 3.1: Homework Discussion – Charts used in Voyant Tools
 
 First of all, we will discuss what you found out about the five different charts from Voyant tools: 
 
@@ -9,7 +11,7 @@ First of all, we will discuss what you found out about the five different charts
 
 The short paper by El Khatib and Ross, S. explained how Voyant tools can be used for Digital Theme Analysis, and Alhudithi reviewed how Voyant Tools can help "users of varying expertise and technical ability [...] to uncover insights that characterize their texts." Have these two papers helped you understand the visualisation tools in Voyant better? What questions did the papers raise, e.g. also regarding technical terms that you have never heard before?
 
-### Task 3.2: Exploring Digital Data Sources I: Databases and Digital Scholarly Editions
+## Task 3.2: Exploring Digital Data Sources I: Databases and Digital Scholarly Editions
 
 In the second part of this session, we will discuss academic databases and digital scholarly editions as sources of data for research in media studies and digital humanities. Databases provide structured, searchable collections of information, while digital scholarly editions offer curated, annotated texts. These resources differ from traditional archives or print editions because they can potentially include interactive elements, because their content is ideally fully searchable, and because their metadata and annotations can help researchers find related documents in minutes. Metadata can be defined as context information (e.g., dates, authors, subjects) that helps you filter and organize large datasets, while digital scholarly editions may also include annotations in the form of term definition, bibiographical notes, or content tags.
 
@@ -35,7 +37,7 @@ While you are looking at the examples, please consider the following:
 - What are the **advantages and limitations** of using these sources? What information do they provide and what might be missing?
 - How easy is it to navigate the resources and what type of research could you do with what they provide? Do you think it would be possible to explore the content with Voyant Tools? What problems might you encounter?
 
-### Task 3.3: Exploring Digital Data Sources II: Social Media
+## Homework for week 4: Exploring Digital Data Sources II: Social Media
 
 Social media platforms are another rich source of data for studying public discourse, cultural trends, and audience engagement. Students in the MA Digital Cultures, in particular, are very interested in working with social media data, also for their theses, but not all platforms are easily accessible or suitable for all research questions. Twitter, for example, was a popular platform for social sciences research in the past but has declined in relevance since Musk's take-over and renaming of the platform. Also Elon Musk radically restricted API access, which means that automated data collection from the platform is now impossible for most researchers. YouTube, on the other hand, still offers wide access via the Google API, which is why it s platform that many of our students select for their theses, both for quantitative and qualitative analyses. Another data source that we frequently use in teaching is the Apple podcast store as the podcast reviews, too, can be scraped using a script (for example, in Python) and an API key. Overall, podcasts tend to have fewer reviews than YouTube videos, so researchers using them might have to combine reviews for several shows to collect a meaningful dataset. But some internationally successful shows will, indeed, also attract several thousand comments.
 
