@@ -2,7 +2,7 @@
 
 ## Task 4.1: Exploring Digital Data Sources II: Social Media
 
-In this session, we will discuss **Nicole Schanzmeyer’s MA thesis**, which uses **distant reading and Voyant Tools**. This thesis, written in 2022/2023, offered "a critical look into audiences of true crime podcasts" (available internally for UM members here) and explored true crime podcast reviews mainly through the lens of cultivation theory. For this purpose, Nicole collected both podcast reviews and Reddit posts to learn about listener perceptions. 
+In this session, we will discuss **Nicole Schanzmeyer’s MA thesis**, which uses **distant reading and Voyant Tools**. This thesis, written in 2022/2023, offered "a critical look into audiences of true crime podcasts" (available internally for UM members [here](https://studenttheses.library.maastrichtuniversity.nl/s/theses/item/30054)) and explored true crime podcast reviews mainly through the lens of cultivation theory. For this purpose, Nicole collected both podcast reviews and Reddit posts to learn about listener perceptions. 
 
 ## Task 4.2: Participatory Culture
 
