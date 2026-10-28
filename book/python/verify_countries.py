@@ -5,7 +5,7 @@
 import requests
 import re
 
-def verify_countries():
+def verify_countries(podcast_url, countries):
     # construct the URL based on the country code
     def construct_url(podcast_url, country_code):
         url_pattern = r"/[a-z]{2}/"  # any two-letter country code in the format /xx/
