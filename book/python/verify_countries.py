@@ -29,16 +29,8 @@ def verify_country_code(podcast_url, country_code):
         #print(f"Failed to retrieve content for country code '{country_code}'. Status code: {response.status_code}")
         return None
 
-# check multiple countries using multiprocessing
+# check multiple countries one after another (adjusted for Pyodide)
 def pool_checks(podcast_url, countries):
-    pool = mp.Pool(mp.cpu_count())
-    
-    # apply verify_country_code function to each country
-    countries_reviewed = pool.starmap(verify_country_code, [(podcast_url, country) for country in countries])
-
-    pool.close()
-    pool.join()
-
+    countries_reviewed = [verify_country_code(podcast_url, country) for country in countries]
     countries_reviewed = [country for country in countries_reviewed if country]
-
     return countries_reviewed
