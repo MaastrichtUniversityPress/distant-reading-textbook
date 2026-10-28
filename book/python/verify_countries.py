@@ -1,7 +1,8 @@
 # check if countries have reviews at all
 
+## Note: Multiprocessing has to be removed for live-coding in Pyodide
+
 import requests
-import multiprocessing as mp
 import re
 
 # construct the URL based on the country code
