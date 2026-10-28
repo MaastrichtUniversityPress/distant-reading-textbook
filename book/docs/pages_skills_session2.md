@@ -1,4 +1,4 @@
-# Exploring text corpora in Voyant Tools
+# Text Analysis II: Exploring text corpora in Voyant Tools
 
 In the second skills session session for the Research Method and Skills training in *Machines of Knowledge*, we will perform a detailed data analysis in Voyant Tools, based on your tutor's sample data. We will discuss if all tools in Voyant are equally suitable for each research question or data set, and we will look at an exemplary text analysis workflow that takes us from general, high-level observations to a detailed and comparative analysis of individual keywords.
 
