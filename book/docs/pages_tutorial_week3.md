@@ -1,4 +1,15 @@
-### Task 3.1: Homework Discussion – Exploring Digital Data Sources I: Databases and Digital Scholarly Editions
+### Task 3.1: Homework Discussion – Charts used in Voyant Tools
+
+First of all, we will discuss what you found out about the five different charts from Voyant tools: 
+
+- What types of charts do you see here?
+- Do the charts show comparisons, compositions, relationships or distributions (according to Abela’s flowchart)?
+- How many variables or data points do you see?
+- What data labels / numerical scales are used and why?
+
+The short paper by El Khatib and Ross, S. explained how Voyant tools can be used for Digital Theme Analysis. Has this paper helped you understand the visualisation tools in Voyant better? What questions did the paper raise, e.g. also regarding technical terms that you have never heard before?
+
+### Exploring Digital Data Sources I: Databases and Digital Scholarly Editions
 
 In this session, we will discuss academic databases and digital scholarly editions as sources of data for research in media studies and digital humanities. Databases provide structured, searchable collections of information, while digital scholarly editions offer curated, annotated texts that can be analyzed for patterns, themes, and historical context.
 
