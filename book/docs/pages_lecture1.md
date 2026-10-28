@@ -1,5 +1,6 @@
 # Lecture: Distant Reading – Text Analysis and Visualization
-**Costas Papadopoulos**
+
+### Lecturer: Costas Papadopoulos
 
 This lecture introduces you to **distant reading** and **visualization theory and practice**. Coined by Italian critic Franco Moretti, distant reading is a method that decomposes text into smaller units (words or phrases), enabling readers to *"focus on units that are much smaller or much larger than the text: devices, themes, tropes—or genres and systems"* (Moretti 2000). By freeing text from linear, semantic meaning-making, distant reading allows us to analyze it differently.
 
@@ -7,7 +8,7 @@ But how do we **visualize these alternative readings**? What are the ethical dim
 
 In this lecture, we will critically examine distant reading and various forms of visualization, exploring issues of representation, epistemological challenges, and the conversion of data into different forms.
 
-## Readings
+### Suggested readings
 
 - Drucker, J. (2017). [Why Distant Reading Isn't](https://doi.org/10.1632/pmla.2017.132.3.628). *PMLA/Publications of the Modern Language Association of America, 132*(3), 628–635.
 - Gibbs, F. W. (2016). [New Forms of History: Critiquing Data and Its Representations](http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations). *The American Historian*.
