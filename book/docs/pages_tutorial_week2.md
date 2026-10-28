@@ -30,6 +30,11 @@ Several of the chart types that you can find in the decision trees for data visu
 4) What data labels / numerical scales are used and why?
 
 During class and / or after class, write down your observations and bring them to the next tutorial session as we will discuss them in the first part of the meeting. 
+Also, please read the following short papers on the capabilities and limitations of Voyant tools to discuss in the following tutorial session:
+
+Alhudithi, E. (2021). Review of Voyant tools: See through your text. Language Learning & Technology, 25(3), 43–50. [https://doi.org/10.64152/10125/73446](https://doi.org/10.64152/10125/73446)
+
+El Khatib, R., & Ross, S. (2022). A Beginner's Guide to Using Voyant for Digital Theme Analysis. [https://doi.org/10.17613/42c8-mk80](https://doi.org/10.17613/42c8-mk80)
 
 ### Sample charts from Voyant tools
 
@@ -55,6 +60,6 @@ Chart 5, using the 1801 inaugural speech by Thomas Jefferson
 
 ## Homework for Week 3
 
-1. Complete the data visualisation exercise in your groups and prepare to share your results.
+1. Complete the data visualisation exercise in your groups and prepare to share your results. Read the two introductions to Voyant tools linked above.
 
 2. Read the tutorial description for week 3.
