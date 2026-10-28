@@ -2,7 +2,11 @@
 
 ## Why segmentation
 
-According to the [Hyperscience knowledge base](https://www.hyperscience.com/knowledge-base/natural-language-processing/), "segmentation in NLP involves breaking down a larger piece of text into smaller, meaningful units such as sentences or paragraphs." This can allow a more systematic comparison between themes and style across several clearly defined sections of text. Whatever segmentation approach you choose, make it transparent and explain why it supports your analysis.
+According to the [Hyperscience knowledge base](https://www.hyperscience.com/knowledge-base/natural-language-processing/), "segmentation in NLP involves breaking down a larger piece of text into smaller, meaningful units such as sentences or paragraphs." This can allow a more systematic comparison across several clearly defined sections of text. In my classes, I usually refer to segmentating text into larger units as my students do not perform advanced linguistic analysis.
+
+However, many NLP tasks depend on segmentation at a much smaller scale. One example is given in Tumi Moeng, Sheldon Reay, Aaron Daniels, and Jan Buys's work on the Southern African Nguni language group. Their focus is morphological segmentation, which "involves decomposing words into morphemes, the smallest meaning-bearing units of language." (Moeng et al., 2021) This process is important in the analysis of agglutinative languages such as the Nguni languages because a single written word can combine many morphemes that together express what English needs a whole sentence for. Counting such words as whole units produces very sparse and misleading frequencies, since most forms appear only once. Splitting them into morphemes gives tools like automated taggers, translators and search engines a more reliable training basis.
+
+Segmentation also matters for the advanced language models behind many new AI-powered tools for language processing. The automated splitting of texts into tokens ([words or sub-words in the context of natural language processing](https://www.geeksforgeeks.org/nlp/nlp-how-tokenizing-text-sentence-words-works/)) is often only optimised for widely used languages such as English. In historical Hebrew, the clitic *dalet* is attached to the following word and has two grammatical functions (subordinating conjunction and possessive preposition). Because the two look identical on the page, ordinary processing can’t distinguish them. Rachel Tal, Cheyn Shmuel Shmidman and Avi Shmidman, therefore, built a BERT model in which all prefixes are split off and encoded as separate tokens, so the model can evaluate the clitic directly. (Tal et al., 2026)
 
 ## Structural approaches
 
@@ -88,3 +92,11 @@ By thought supplied, or any interest
 Unborrow’d from the eye.
 
 [Wordsworth’s “Tintern Abbey”.]
+
+#### Resources
+
+Hyperscience Resource Center (n.d.). Natural language processing. [https://www.hyperscience.ai/resource/natural-language-processing/](https://www.hyperscience.ai/resource/natural-language-processing/)
+
+Moeng, T., Reay, S., Daniels, A., & Buys, J. (2021). Canonical and Surface Morphological Segmentation for Nguni Languages. In Proceedings of the Second Southern African Conference for AI Research (SACAIR 2021), 6-10 December 2021, Dolphin Coast, KwaZulu-Natal. Communications in Computer and Information Science, Springer. [https://pubs.cs.uct.ac.za/id/eprint/1494/1/Morphological_Segmentation__SACAIR_.pdf](https://pubs.cs.uct.ac.za/id/eprint/1494/1/Morphological_Segmentation__SACAIR_.pdf)
+
+Tal, R., Shmidman, C. S., & Shmidman, A. (2026). Modeling the “dalet” clitic in historical Hebrew texts: A new prefix-segmented BERT model and stylistic analysis. In Proceedings of the 6th International Conference on Natural Language Processing for the Digital Humanities (pp. 121-131). Association for Computational Linguistics. https://aclanthology.org/2026.nlp4dh-1.12.pdf
