@@ -2,11 +2,17 @@
 
 ## Why segmentation
 
-According to the [Hyperscience knowledge base](https://www.hyperscience.com/knowledge-base/natural-language-processing/), "segmentation in NLP involves breaking down a larger piece of text into smaller, meaningful units such as sentences or paragraphs." One basic level of segmentation that you may want to carry out before analysing a text is a division into several larger sections that can potentially also denote shifts in content. 
+According to the [Hyperscience knowledge base](https://www.hyperscience.com/knowledge-base/natural-language-processing/), "segmentation in NLP involves breaking down a larger piece of text into smaller, meaningful units such as sentences or paragraphs." This can allow a more systematic comparison between themes and style across several clearly defined sections of text. Whatever segmentation approach you choose, make it transparent and explain why it supports your analysis.
 
-## Author- or publisher-defined segmentation
+## Structural approaches
 
-A basic, more structural approach to segmentation is to divide a text into sections that are already predefined by the author or publisher. This can be, for instance, volumes or chapters. You can also separate an appendix from the main text, or put references or endnotes into a separate file.
+### Author- or publisher-defined segmentation
+
+A structural approach to segmentation is to divide a text into sections that are already predefined by the author or publisher. This can be, for instance, volumes or chapters. You can also separate an appendix from the main text, or treat references or endnotes separately.
+
+### Fixed-size segmentation
+
+A purely quantitative alternative is to split a text into segments of equal length, for example 1,000 words each. This makes the segments directly comparable in size and is the approach that several tools in the Voyant Tools suite, such as Trends and Bubblelines, take by default. The disadvantage is that the cuts ignore the structure of the text, so a segment may begin or end in the middle of a scene or chapter and even divide sentences.
 
 ## Alternative segmentation approaches
 
@@ -23,6 +29,14 @@ Dividing the main plot from one or more sub-plots can help you explore differenc
 ### Dividing text by setting or location
 
 If your text has different settings or locations, this can be another interesting division marker and can help you explore differences in the description of spaces and the people moving within them. In the novel [Dracula](https://www.gutenberg.org/ebooks/345), for instance, you could seperate sections playing out in Dracula's castle from sections set on the ship, in the asylum, or in the houses of the different characters.
+
+### Segmentation by narrator or narrative level
+
+Some texts contain several narrators or are nested in narrative frames. Segmenting by narrator lets you compare how each voice tells its story, which is different from segmenting by character, because it follows who is telling the story rather than who it is about.
+
+### Segmentation by time
+
+If your text contains flashbacks, time jumps or diary entries, you can divide it by chronological period or by the difference between story time and narrated time. This helps you explore how language and tone shift between the present of the narration and the events it recounts. In Wuthering Heights, for instance, you could separate the frame narrative from the events Nelly Dean recounts from the past.
 
 ### Segmentation based on central characters
 
