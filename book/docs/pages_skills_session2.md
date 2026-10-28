@@ -1,10 +1,10 @@
-## An introduction to Voyant Tools
+# Exploring text corpora in Voyant Tools
 
 In the second skills session session for the Research Method and Skills training in *Machines of Knowledge*, we will perform a detailed data analysis in Voyant Tools, based on your tutor's sample data. We will discuss if all tools in Voyant are equally suitable for each research question or data set, and we will look at an exemplary text analysis workflow that takes us from general, high-level observations to a detailed and comparative analysis of individual keywords.
 
-### Why text analysis with Voyant Tools
+### Opportunities and limitations of text analysis with Voyant Tools
 
-Voyant Tools is a web-based text analysis and visualization platform that is popular in the humanities and social sciences. Voyant Tools is user-friendly and freely available online. It can be used by researchers without any technical expertise. The platform offers a variety of data visualisations, such as word clouds, word frequency charts, and dispersion plots, which can help users identify patterns, trends, and anomalies in a text corpus. Visualisations can make it easier to engage with and interpret large amounts of textual data (that may be impossible to read in a reasonable amount of time). Researchers can adjust parameters, apply filters, and experiment with various visualizations to uncover new perspectives. This process of computational text analysis is also called *distant reading* (as opposed to traditional *close reading*).
+Voyant Tools is a web-based text analysis and visualization platform that is popular (for teaching) in the humanities and social sciences. Voyant Tools is user-friendly and freely available online. Therefore, it offers a gentle introduction to distant reading for users with limited technical skills. The data visualisations on Voyant range from beginners' tools such as word clouds and word frequency tables or options to display keywords in context to more complex analyses such as topic modelling. Not all tools are equally reliable, however. The Dreamscape maps will often show false results or miss place names in texts. It is, therefore, not recommended to use the more experimental tools in your final essays!
 
 ### Ingest your data into Voyant Tools
 
@@ -16,7 +16,7 @@ Go to the [Voyant Tools](https://voyant-tools.org/) website and simply paste you
 
 ### Steps of text analysis in Voyant
 
-The following four steps describe an exemplary text analysis in Voyant and can serve as a guideline for your own work. The idea is to progress from more high-level observations to a more detailed and comparative analysis of your data set(s).
+The following four steps describe an exemplary text analysis for beginners in Voyant and can serve as a guideline for your own work. The idea is to progress from more high-level observations to a more detailed and comparative analysis of your data set(s).
 
 **Step 1: Word Cloud and Frequencies Table Analysis**
 
