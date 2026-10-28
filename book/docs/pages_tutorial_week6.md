@@ -1,4 +1,4 @@
-### Task 6.1: Homework Discussion – Distant reading
+### Task 6.1: Homework Discussion – Feminist and postcolonial perspectives in the Digital Humanities
 
 We will discuss the four readings on feminist and postcolonial perspectives.
 
@@ -16,7 +16,7 @@ From the abstract: "The present study aims to give a short introduction into the
 
 In the last part of the tutorial session, we will focus on addressing your questions and concerns about the final essay. This is an opportunity to clarify any uncertainties you may have about the requirements, structure, or content of your essay.
 
-### New Homework: Data and AI Ethics
+### Homework for week 7: Data and AI Ethics
 
 In the coming tutorial, we will discuss data and AI ethics in research. As data-driven technologies become more wide-spread, also in qualitative research, it is important to consider the social, legal, and moral responsibilities that come with their use. In preparation for the tutorial session, you will read several papers that introduce frameworks and guidelines for ethical data and AI use. 
 
@@ -26,4 +26,4 @@ In the coming tutorial, we will discuss data and AI ethics in research. As data-
 - Boddington, P. (2023). Ethical questions in AI currently receiving attention. In  AI ethics: A textbook (pp. 43–60). Springer. [https://doi.org/10.1007/978-981-19-9382-4](https://doi.org/10.1007/978-981-19-9382-4) (The book is available via LibSearch!)
 - Floridi, L., & Taddeo, M. (2016). What is data ethics? Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 374(2083), Article 20160360. [https://doi.org/10.1098/rsta.2016.0360](https://doi.org/10.1098/rsta.2016.0360)
 - Rességuier, A., & Rodrigues, R. (2020). AI ethics should not remain toothless! A call to bring back the teeth of ethics. Big Data and Society, 7(2). [https://doi.org/10.1177/2053951720942541](https://doi.org/10.1177/2053951720942541)
-Richterich, A. (2018). Examining (big) data practices and ethics. In  The big data agenda: Data ethics and critical data studies (pp. 15–31). University of Westminster Press. [https://doi.org/10.25969/MEDIAREP/747](https://doi.org/10.25969/MEDIAREP/747) (The book is available via LibSearch!)
+- Richterich, A. (2018). Examining (big) data practices and ethics. In  The big data agenda: Data ethics and critical data studies (pp. 15–31). University of Westminster Press. [https://doi.org/10.25969/MEDIAREP/747](https://doi.org/10.25969/MEDIAREP/747) (The book is available via LibSearch!)
